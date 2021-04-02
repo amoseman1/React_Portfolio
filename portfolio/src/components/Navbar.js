@@ -5,6 +5,7 @@ function Navbar() {
     // This allows the component to check the route any time the user uses a link to navigate.
     const location = useLocation();
 
+
     return (
 
         <>
@@ -15,10 +16,20 @@ function Navbar() {
                             <div class="uk-navbar-left">
                                 <ul class="uk-navbar-nav">
                                     <li class="uk-active">
-                                        <a id="navList" href="index.html">Home</a>
+                                        {/* <a id="navList" href="index.html">Home</a> */}
+                                        <Link to="/" id="navList" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>  Home
+                                        </Link>
                                     </li>
-                                    <li><a id="navList" href="portfolio.html">Portfolio</a></li>
-                                    <li><a id="navList" href="contact.html">Contact</a></li>
+                                    <li>
+                                        {/* <a id="navList" href="portfolio.html">Portfolio</a> */}
+                                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}> Portfolio
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}> Contact
+                                       </Link>
+                                    </li>
+                                    <li><Link to="" id="navList" href="assets/amyresume.pdf" target="_blank">Resume </Link></li>
                                 </ul>
                             </div>
                         </nav>
