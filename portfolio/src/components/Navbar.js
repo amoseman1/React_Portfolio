@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import DownloadLink from './DownloadLink'
 
 function Navbar() {
     // This allows the component to check the route any time the user uses a link to navigate.
@@ -9,27 +10,30 @@ function Navbar() {
     return (
 
         <>
-            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                <div class="uk-position-relative">
-                    <div class="uk-position-top">
-                        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-                            <div class="uk-navbar-left">
-                                <ul class="uk-navbar-nav">
-                                    <li class="uk-active">
+            <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <div className="uk-position-relative">
+                    <div className="uk-position-top">
+                        <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                            <div className="uk-navbar-left">
+                                <ul className="uk-navbar-nav">
+                                    <li className="uk-active">
                                         {/* <a id="navList" href="index.html">Home</a> */}
                                         <Link to="/" id="navList" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>  Home
                                         </Link>
                                     </li>
                                     <li>
                                         {/* <a id="navList" href="portfolio.html">Portfolio</a> */}
-                                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}> Portfolio
+                                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}> Contact
+                                        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact
                                        </Link>
                                     </li>
-                                    <li><Link to="" id="navList" href="assets/amyresume.pdf" target="_blank">Resume </Link></li>
+                                    {/* <li><Link to="../../../assets/Resume2021.pdf" id="navList" target="_blank">Resume </Link> </li> */}
+                                    <li>
+                                        <DownloadLink src="./Resume2021.pdf">Resume</DownloadLink>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>

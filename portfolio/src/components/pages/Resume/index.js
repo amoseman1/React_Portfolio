@@ -1,22 +1,24 @@
-import React, { useRef, UseEffect } from 'react';
-import WebViewer from '@pdftron/webviewer';
+// import React from 'react'
 
+// function Resume() {
+//     return (
+//         <div>
+//             <Link to="../../../assets/Resume2021"></Link>
+//         </div>
+//     )
+// }
 
-export default function Resume() {
-    const viewerDiv = useRef<HTMLDivElement>(null);
+// export default Resume
 
-    useEffect(() => {
-        WebViewer({
-            path: 'lib',
-            initialDoc: '../../../assets/Resume2021'
-        }, viewerDiv.current as HTMLDivElement).then(instance => {
+// import React from 'react';
+// import { Document, Page } from 'react-pdf';
 
-        })
-    }, []);
+// import Resume from '../../Resume2021.pdf';
 
-    return (
-        <div className="Resume">
-            <div className="webviewer" ref={viewerDiv}></div>
-        </div>
-    )
-}
+// export default function Test() {
+//     return (
+//         <Document file={Resume}>
+//             <Page pageNumber={1} />
+//         </Document>
+//     );
+// }

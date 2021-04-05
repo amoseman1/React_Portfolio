@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-function Index() {
-    return (
-        
-    )
-}
+// function Index() {
+//     return (
 
-export default Index
+//     )
+// }
+
+// export default Index
