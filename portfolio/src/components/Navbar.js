@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import DownloadLink from './DownloadLink'
+
 
 function Navbar() {
     // This allows the component to check the route any time the user uses a link to navigate.
@@ -23,7 +23,7 @@ function Navbar() {
                                     </li>
                                     <li>
                                         {/* <a id="navList" href="portfolio.html">Portfolio</a> */}
-                                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio
+                                        <Link to="/portfolio2" className={location.pathname === "/portfolio2" ? "nav-link active" : "nav-link"}>Portfolio
                                         </Link>
                                     </li>
                                     <li>

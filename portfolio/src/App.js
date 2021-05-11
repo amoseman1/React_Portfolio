@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./components/pages/Home";
-import Resume from "./components/pages/Resume";
-import Portfolio from "./components/pages/Portfolio";
+// import Resume from "./components/pages/Resume";
+import Portfolio2 from "./components/pages/Portfolio2";
 import Contact from "./components/pages/Contact";
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
       <div>
         <Navbar />
         <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/portfolio2" component={Portfolio2} />
         <Route path="/contact" component={Contact} />
-        <Route exact path="/resume" component={Resume} />
-
+        {/* <Route exact path="/resume" component={Resume} /> */}
+        <Footer />
       </div>
     </Router>
   );
