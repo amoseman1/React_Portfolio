@@ -1,9 +1,23 @@
-// import React from 'react'
+import React from 'react'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Image from 'react-bootstrap/Image'
+import Button from 'react-bootstrap/Button'
+import "./style.css"
 
-// function Index() {
-//     return (
+function Contact() {
+    return (
+        <Jumbotron id="jumbo">
+            <Image id="image" src="https://images.unsplash.com/photo-1504624244670-373b7257e140?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnQlMjBwcmluY2V0b24lMjBjb2xvcmFkb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" ></Image>
+            <h1 id="header">Lets Connect</h1>
+            <div id="contact">
+                <i className="fas fa-mobile-alt">  812.320.4538</i> <br />
+                <i className="far fa-envelope">  amoseman18@gmail.com</i>
+            </div>
+            <p>
+                <Button variant="primary">Learn more</Button>
+            </p>
+        </Jumbotron>
+    )
+}
 
-//     )
-// }
-
-// export default Index
+export default Contact
