@@ -1,0 +1,14 @@
+body {
+  font-size: 45px !important;
+  font-weight: bold !important;
+  font-family: "Rock Salt", cursive !important;
+  margin-left: 0px !important;
+  margin-bottom: 30px !important;
+  color: rgb(245, 238, 197) !important;
+}
+
+#navList {
+  font-size: 50px;
+  font-family: "Amatic SC", cursive !important;
+  color: rgb(245, 238, 197) !important;
+}

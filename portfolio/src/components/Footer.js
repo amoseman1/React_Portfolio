@@ -8,8 +8,8 @@ function Footer() {
             <a href="https://github.com/amoseman1"><i id="icons" className="fab fa-github"></i></a>
 
             <a href="https://www.linkedin.com/in/amy-moseman-7867a9158"><i id="icons" className="fab fa-linkedin"></i></a>
-            <br />
-            <i className="far fa-copyright">Amy Moseman</i>
+
+            <i id="icons" className="far fa-copyright">Amy Moseman</i>
         </div>
     </>
     )

@@ -4,6 +4,7 @@
 
 #image {
   border-radius: 15%;
+  position: absolute;
 }
 
 #contact {
