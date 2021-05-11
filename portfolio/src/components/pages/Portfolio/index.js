@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+// import Image from 'bootstrapc'
 
 function Portfolio() {
     return (

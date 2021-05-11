@@ -30,10 +30,10 @@ function Navbar() {
                                         <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact
                                        </Link>
                                     </li>
-                                    {/* <li><Link to="../../../assets/Resume2021.pdf" id="navList" target="_blank">Resume </Link> </li> */}
-                                    <li>
-                                        <DownloadLink src="./Resume2021.pdf">Resume</DownloadLink>
-                                    </li>
+
+                                    {/* just put this in to see if it works need to ttest!!!! */}
+                                    <li><a href="https://docs.google.com/document/d/1tbBlPYtNdwyHWxWVoBnkWIAG3jI65zqGx4CuFJDmJd4/edit?usp=sharing" rel="noreferrer" target="_blank">Resume</a></li>
+
                                 </ul>
                             </div>
                         </nav>

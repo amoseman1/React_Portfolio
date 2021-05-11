@@ -1,12 +1,12 @@
-// import React from 'react'
+import React, { Link } from 'react'
 
-// function Resume() {
-//     return (
-//         <div>
-//             <Link to="../../../assets/Resume2021"></Link>
-//         </div>
-//     )
-// }
+export default function Resume() {
+    return (
+        <div>
+            <Link to="../../../assets/Resume2021"></Link>
+        </div>
+    )
+}
 
 // export default Resume
 
