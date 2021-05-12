@@ -4,6 +4,7 @@ import React from 'react'
 // import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import CardDeck from "react-bootstrap/CardDeck"
+import Button from 'react-bootstrap/Button'
 import "./style.css"
 
 function Portfolio2() {
@@ -15,43 +16,43 @@ function Portfolio2() {
         <br />
         <CardDeck>
             <Card className="card">
-                <Card.Img variant="top" src="https://images.unsplash.com/photo-1620293838958-94e36e3b89ca?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                <Card.Img variant="top" src="./hobbyDrop.png" />
+                <Card.Body className="cardbody">
+                    <Card.Title>Hobby Drop</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                        MERN application with Firebase Auth and CRUD capabilities. User can make a post to get rid of unwanted hobby supplies. They can update or delete their posts. By scanning other posts they can quickly get into a new hobby!
             </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <Button variant="secondary" href="https://boiling-plains-91409.herokuapp.com/" target="_blank" rel="noreferrer">Check it out!</Button>
+                    <a href="https://github.com/amoseman1/HobbyDrop" target="_blank" rel="noreferrer"><i id="profIcon" className="fab fa-github"></i></a>
                 </Card.Footer>
             </Card>
-            <Card>
-                <Card.Img variant="top" src="../../../assets/mern.jpeg" />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+            <Card className="card">
+                <Card.Img variant="top" src="./keepDreamingSS.png" />
+                <Card.Body className="cardbody2">
+                    <Card.Title>Keep Dreaming</Card.Title>
                     <Card.Text>
-                        This card has supporting text below as a natural lead-in to additional
-              content.{' '}
+                        An application that quizzes the user for their traveling preferences and chooses a destination based off them. Sequelize, Javascript and Express are the bones of the operation.
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <Button variant="secondary" href="https://warm-earth-65577.herokuapp.com/" target="_blank" rel="noreferrer">Check it out!</Button>
+                    <a href="https://github.com/amoseman1/Keep_Dreaming" target="_blank" rel="noreferrer"><i id="profIcon" className="fab fa-github"></i></a>
+
                 </Card.Footer>
             </Card>
-            <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+            <Card className="card">
+                <Card.Img variant="top" src="./tasteTheMusic1 (1).gif" />
+                <Card.Body className="cardbody">
+                    <Card.Title>Taste The Music</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to
-                        show that equal height action.
+                        APIs and event handlers allow you to randomly pair a song with a recipe on the click of a button. jQuery dynamic rendering handles the responses.
             </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
+                    <Button variant="secondary" href="https://enevarez-ops.github.io/projectOne/" target="_blank" rel="noreferrer">Check it out!</Button>
+                    <a href="https://github.com/enevarez-ops/projectOne" target="_blank" rel="noreferrer"><i id="profIcon" className="fab fa-github"></i></a>
                 </Card.Footer>
             </Card>
         </CardDeck>

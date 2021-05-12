@@ -8,4 +8,19 @@
 
 .card {
   border-radius: 25%;
+  box-shadow: 5px 10px #888888;
+  font-family: tahoma;
+  padding: 5px;
+}
+.cardbody {
+  background-color: rgba(111, 122, 115, 0.5);
+}
+.cardbody2 {
+  background-color: rgba(129, 131, 130, 0.2);
+}
+#profIcon {
+  padding: 0px;
+  font-size: 30px;
+  color: #314d32;
+  margin-left: 20px;
 }
