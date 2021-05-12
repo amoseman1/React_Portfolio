@@ -1,4 +1,4 @@
-body {
+/* body {
   background: url("https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBsYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
     no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -21,12 +21,12 @@ container {
 }
 
 /* header div  */
-h1 {
+/* h1 {
   color: rgb(245, 238, 197);
   text-align: center;
   font-size: 50px;
   /* padding:15px; */
-  font-family: "Rock Salt", cursive;
+/* font-family: "Rock Salt", cursive;
   margin: 0px;
 }
 
@@ -76,7 +76,7 @@ ul {
 }
 
 /* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
+/* @media screen and (max-width: 1060px) {
   #primary {
     width: 67%;
   }
@@ -87,7 +87,7 @@ ul {
 }
 
 /* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #primary {
     width: 100%;
   }
@@ -95,5 +95,5 @@ ul {
     width: 100%;
     margin: 0;
     border: none;
-  }
-}
+  } */
+/* } */

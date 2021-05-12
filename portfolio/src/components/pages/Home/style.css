@@ -16,14 +16,13 @@ h3 {
   color: rgb(245, 238, 197) !important;
 }
 
-.media {
+/* .media {
   display: inline-block !important;
   /* float: right; */
-  font-size: 40px;
+/* font-size: 40px;
   margin-left: 400px;
-}
-
-nav {
+} */
+*/ nav {
   float: clear;
 }
 
@@ -32,12 +31,18 @@ nav {
   font-family: "Amatic SC", cursive !important;
 }
 
-#icons {
+/* #icons {
   color: rgb(245, 238, 197);
-}
+} */
 
 #photo {
   height: 250px;
   width: 200px;
-  border-radius: 25%;
+  border-radius: 35%;
+}
+
+#about {
+  color: rgb(245, 238, 197);
+  font-size: 15px;
+  font-family: "tahoma" !important;
 }
