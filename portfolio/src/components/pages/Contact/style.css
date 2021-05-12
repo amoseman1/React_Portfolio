@@ -6,9 +6,18 @@
 #image {
   border-radius: 15%;
   position: relative;
+  padding: 30px;
+  margin-top: 40px;
 }
 
 #contact {
+  color: rgb(245, 238, 197);
+  padding: 10px;
+  /* font-size: 30px;
+  font-family: "Amatic SC", cursive !important; */
+}
+
+#info {
   color: rgb(245, 238, 197);
   font-size: 30px;
   font-family: "Amatic SC", cursive !important;
