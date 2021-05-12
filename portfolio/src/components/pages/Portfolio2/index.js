@@ -7,7 +7,12 @@ import CardDeck from "react-bootstrap/CardDeck"
 import "./style.css"
 
 function Portfolio2() {
-    return (
+    return (<>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <CardDeck>
             <Card className="card">
                 <Card.Img variant="top" src="https://images.unsplash.com/photo-1620293838958-94e36e3b89ca?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
@@ -50,6 +55,7 @@ function Portfolio2() {
                 </Card.Footer>
             </Card>
         </CardDeck>
+    </>
 
     )
 }
