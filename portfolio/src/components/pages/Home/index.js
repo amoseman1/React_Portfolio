@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+import './homestyle.css';
 // import Image from 'react-bootstrap/Image'
 
 
