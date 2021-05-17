@@ -16,9 +16,6 @@ function Contact() {
                 <p id="info">
                     <i id="contact" className="far fa-envelope"> </i> amoseman18@gmail.com </p>
             </div>
-            {/* <p>
-                <Button variant="primary">Learn more</Button>
-            </p> */}
         </Jumbotron>
     )
 }

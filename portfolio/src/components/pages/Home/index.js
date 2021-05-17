@@ -10,7 +10,7 @@ function Home() {
         <>
 
             <div className="media">
-                <h3>Amy Moseman</h3>
+                <h3 className="title">Amy Moseman</h3>
                 <img id="photo" src="./IMG_1911.jpg" alt="author"></img>
                 <p id="about">Adventurer by heart, leader and problem solver by nature. I’ve worn many
                 hats in my life which have given me the life lessons and experiences to mold
