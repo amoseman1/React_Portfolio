@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
   height: 100%;
 }
 
@@ -17,31 +16,24 @@ body {
   width: 250px;
   border-radius: 25%;
   /* margin-top: 10%; */
-  margin-left: 80px;
+  margin-left: 60px;
   padding: 20px;
 }
 
 #about {
   color: rgb(245, 238, 197);
-  font-size: 17px;
+  font-size: 15px;
   font-family: "tahoma" !important;
-  /* margin-top: 10px; */
-  padding: 20px;
-  line-height: 180%;
-  max-width: 800px;
+  margin-top: 20px;
+  padding: 40px;
+  line-height: 200%;
 }
-
-/* .media {
-  display: flex;
-  max-height: 1000px;
-  max-width: 1000px;
-} */
 
 #mern {
   height: 150px;
   width: 300px;
   justify-content: center;
-  margin-left: 80px;
+  margin-left: 60px;
   /* margin-bottom: 100px;  */
   padding: 25px;
 }
