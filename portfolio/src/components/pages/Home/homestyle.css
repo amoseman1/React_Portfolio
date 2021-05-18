@@ -16,18 +16,19 @@ body {
   height: 330px;
   width: 250px;
   border-radius: 25%;
-  margin-top: 10%;
-  margin-left: 40px;
-  padding: 30px;
+  /* margin-top: 10%; */
+  margin-left: 60px;
+  padding: 20px;
 }
 
 #about {
   color: rgb(245, 238, 197);
   font-size: 15px;
   font-family: "tahoma" !important;
-  margin-top: 11%;
-  padding: 20px;
-  max-width: 500px;
+  margin-top: 20px;
+  padding: 40px;
+  line-height: 200%;
+  /* max-width: 500px; */
 }
 
 /* .media {
@@ -39,7 +40,8 @@ body {
 #mern {
   height: 150px;
   width: 300px;
-  margin-left: 275px;
-  margin-bottom: 100px;
+  justify-content: center;
+  margin-left: 60px;
+  /* margin-bottom: 100px;  */
   padding: 25px;
 }
