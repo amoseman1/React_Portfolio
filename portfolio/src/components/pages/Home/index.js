@@ -2,7 +2,7 @@ import React from "react";
 import './homestyle.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
+// import Container from 'react-bootstrap/Container'
 import Image from 'react-bootstrap/Image'
 
 
@@ -11,6 +11,10 @@ import Image from 'react-bootstrap/Image'
 function Home() {
     return (
         <>
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
