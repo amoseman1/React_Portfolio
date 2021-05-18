@@ -1,16 +1,10 @@
 import React from "react";
 import './homestyle.css';
-// import Image from 'react-bootstrap/Image'
-
-
-
 
 function Home() {
     return (
         <>
-
             <div className="media">
-                {/* <h3 className="title">Amy Moseman</h3> */}
                 <img id="photo" src="./IMG_1911.jpg" alt="author"></img>
                 <p id="about">Adventurer by heart, leader and problem solver by nature. I’ve worn many
                 hats in my life which have given me the life lessons and experiences to mold
@@ -23,13 +17,7 @@ function Home() {
                 and dependable communicator. All of these traits have made my transition
                 into a web developer much smoother. The daily collaboration is a crucial part
                 of the experience. I can't wait to build some amazing things together.</p>
-
-
-
-
-
             </div>
-
         </>
     );
 }
