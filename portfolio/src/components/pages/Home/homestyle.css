@@ -15,10 +15,10 @@ body {
 #photo {
   height: 330px;
   width: 250px;
-  border-radius: 35%;
+  border-radius: 25%;
   margin-top: 10%;
-  margin-left: 20px;
-  padding: 20px;
+  margin-left: 40px;
+  padding: 30px;
 }
 
 #about {
