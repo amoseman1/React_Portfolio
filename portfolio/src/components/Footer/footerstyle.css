@@ -2,8 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 13vh;
+  min-height: 15vh;
   background: #213121;
+  /* position: fixed;
+  width: 100%; */
 }
 
 .list {
@@ -57,9 +59,9 @@
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-#copywright {
+/* #copywright {
   color: rgb(245, 238, 197) !important;
   justify-content: left !important;
-  background: #213121;
+  background: #d4d6d4;
   font-size: 11px;
-}
+} */

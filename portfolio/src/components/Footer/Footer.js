@@ -14,7 +14,7 @@ function Footer() {
             </ul>
 
         </div>
-        <p id="copywright">&copy;Amy Moseman 2021</p>
+        {/* <p id="copywright">&copy;Amy Moseman 2021</p> */}
     </>
     )
 }
