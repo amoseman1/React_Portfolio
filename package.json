@@ -245,10 +245,12 @@
     "yargs-parser": "^11.1.1"
   },
   "scripts": {
-    "start": "react-script-start",
-    "build": "react-script-build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
+    "start": "if-env NODE_ENV=production && npm start:prod || npm start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm client\"",
+    "client": "cd client && npm start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm build",
     "deploy": "gh-pages -d build"
   },
   "repository": {

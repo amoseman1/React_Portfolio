@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/pages/Home";
@@ -8,7 +8,7 @@ import Contact from "./components/pages/Contact";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <div>
         <Navbar />
         <Route exact path="/" component={Home} />
