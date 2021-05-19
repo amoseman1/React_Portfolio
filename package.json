@@ -24,6 +24,7 @@
     "boxen": "^1.3.0",
     "brace-expansion": "^1.1.11",
     "braces": "^2.3.2",
+    "build": "^0.1.4",
     "cache-base": "^1.0.1",
     "camelcase": "^4.1.0",
     "capture-stack-trace": "^1.0.1",
@@ -247,9 +248,8 @@
     "start:prod": "cd client && npm start",
     "build": "cd client && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
-  
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
