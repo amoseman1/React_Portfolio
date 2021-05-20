@@ -20,20 +20,11 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-<<<<<<< HEAD
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-=======
-    "start": "if-env NODE_ENV=production && npm start:prod || npm start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm client\"",
-    "client": "cd client && npm start",
-    "install": "cd client && npm install",
-    "build": "cd client && npm build",
->>>>>>> d89b867a3a291fc42d568a5e028795e395fa25c4
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
