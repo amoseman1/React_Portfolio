@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://amoseman1.github.io/React_Portfolio",
+  "homepage": "http://amoseman1.github.io/React_portfolio",
   "private": true,
   "dependencies": {
     "@pdftron/webviewer": "^7.3.0",
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.7.3",
     "bootstrap": "^4.6.0",
     "eslint": "^7.26.0",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
@@ -20,20 +21,11 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-<<<<<<< HEAD
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-=======
-    "start": "if-env NODE_ENV=production && npm start:prod || npm start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm client\"",
-    "client": "cd client && npm start",
-    "install": "cd client && npm install",
-    "build": "cd client && npm build",
->>>>>>> d89b867a3a291fc42d568a5e028795e395fa25c4
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
