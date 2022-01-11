@@ -15,7 +15,8 @@ body {
 }
 #cardbody {
   background-color: rgba(221, 223, 222, 0.5);
-  max-width: 610px;
+  max-width: 550px;
+  display: flex;
 }
 .cardbody2 {
   background-color: rgba(129, 131, 130, 0.2);
