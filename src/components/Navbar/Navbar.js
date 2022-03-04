@@ -31,10 +31,10 @@ function Navbar() {
                                     </li>
                                     <li>
                                         <Link to="/contact" id="navList" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact
-                                       </Link>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="https://docs.google.com/document/d/1tbBlPYtNdwyHWxWVoBnkWIAG3jI65zqGx4CuFJDmJd4/edit?usp=sharing" rel="noreferrer" target="_blank" id="navList">Resume</a>
+                                        <a href="https://docs.google.com/document/d/1Y56sO5B7ugXmBnEWmIKf0ndGJ4E5XQsh6EI4IL72-ok/view?usp=sharing" rel="noreferrer" target="_blank" id="navList">Resume</a>
                                     </li>
                                 </ul>
                             </div>
