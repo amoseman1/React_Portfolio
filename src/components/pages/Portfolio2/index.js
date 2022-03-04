@@ -124,19 +124,19 @@ function Portfolio2() {
         <Card>
             <div className="row prow">
                 <div className="col-md-6">
-                    <img className="newtImg" src="" alt="newtritous" />
+                    <img className="newtImg" src="./newt.png" alt="newtritous" />
 
                 </div>
                 <div className="col-md-6 proDets flex-wrap" id="cardbody">
                     <h1 id="profIcon">
                         Newtritous
-                        <a className="inline-link" href="" target="_blank" rel="noreferrer">
+                        <a className="inline-link" href="https://github.com/newtritious/Newtritious" target="_blank" rel="noreferrer">
                             <i id="profIcon" className="fab fa-github"></i>
                         </a>
                     </h1>
                     <hr />
                     <p className="description">
-                        A freelance project using Soonacular's api as a nutrition app to rule them all.
+                        A freelance project using Soonacular's api as a responsive nutrition app to rule them all. Sign up and start cooking!
                     </p>
                     <Button id="button" variant="secondary" href="https://newtritous.herokuapp.com/" target="_blank" rel="noreferrer">Live Website!</Button>
                 </div>
