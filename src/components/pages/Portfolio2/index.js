@@ -103,7 +103,8 @@ function Portfolio2() {
         <Card>
             <div className="row prow">
                 <div className="col-md-6">
-                    <img className="projectImg" src="" alt="hobby drop" />
+                    <img className="sonnysImg" src="./sonnysHome.png" alt="sonnys homepage" />
+                    <img className="sonnysImg" src="./sonnys1.png" alt="sonnys review page" />
                 </div>
                 <div className="col-md-6 proDets flex-wrap" id="cardbody">
                     <h1 id="profIcon">
@@ -114,9 +115,30 @@ function Portfolio2() {
                     </h1>
                     <hr />
                     <p className="description">
-                        This is a full stack website built for a client's catering company, Sonny's. This freelancing job was a solo mission from yours truely. I built the server, database, all the components and APIs. I even expanded into typgraphy, color theming, logo design and consulting.
+                        This is a full stack website built for a client's catering company, Sonny's. This freelancing job was a solo mission from yours truely. I built the server, database, all the components and APIs. I even researched and designed the typography, color theming, logo design and consulting.
                     </p>
-                    <Button id="button" variant="secondary" href=" https://frozen-falls-56288.herokuapp.com" target="_blank" rel="noreferrer">Live Website!</Button>
+                    <Button id="button" variant="secondary" href="https://frozen-falls-56288.herokuapp.com" target="_blank" rel="noreferrer">Live Website!</Button>
+                </div>
+            </div>
+        </Card>
+        <Card>
+            <div className="row prow">
+                <div className="col-md-6">
+                    <img className="newtImg" src="" alt="newtritous" />
+
+                </div>
+                <div className="col-md-6 proDets flex-wrap" id="cardbody">
+                    <h1 id="profIcon">
+                        Newtritous
+                        <a className="inline-link" href="" target="_blank" rel="noreferrer">
+                            <i id="profIcon" className="fab fa-github"></i>
+                        </a>
+                    </h1>
+                    <hr />
+                    <p className="description">
+                        A freelance project using Soonacular's api as a nutrition app to rule them all.
+                    </p>
+                    <Button id="button" variant="secondary" href="https://newtritous.herokuapp.com/" target="_blank" rel="noreferrer">Live Website!</Button>
                 </div>
             </div>
         </Card>
